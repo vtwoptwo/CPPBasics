@@ -11,28 +11,49 @@ void loadarray(int px[], int pn);
 void showarray(int px[], int pn);
 void sumarray(int px[], int py[],int pz[],int pn);
 
-*/
+/
 
 #include <iostream>
+
 using namespace std;
 
 
-void loadarray(int px[], int pn){
-
-}
-
-void showarray(int px[]m int pn){
-}
-
-void summmary(int px[], int py[], int pz[], int pn){  
-}
-
-
-int main(){
-    int i, A[4];
-    for(i=0;i<10;i++)
-        nums[i]=i+1;
-
-
+int loadarray(int px[], int pn){ // usually u pass the size as a parameter, you could also addpx rather than px[]
+    for(int i=0;i<pn ;i++)
+        px[i]=i+1;
     return 0;
+};
+
+void showarray(int px[], int pn){
+
+    for(int i = 0; i< pn;i++)
+    cout<<px[i];
+}
+
+void summary(int px[], int py[], int pz[], int pn){
+    for(int j=0; j<pn;j++){
+        pz[j]=py[j]+px[j];}
+}
+
+int main() {
+  const int size=4;
+  int A[size];
+  int B[size];
+  int C[size];
+
+
+  loadarray(A, size);
+  loadarray(B, size);
+  summary(A,B,C,size);
+
+  cout<<"if you add     "; 
+  showarray(A,size); 
+  cout<<"+";
+  showarray(B,size); 
+  cout<<endl; 
+  cout<< "You get:   ";
+  showarray(C,size);
+  cout<< endl;
+
+  return 0;
 }

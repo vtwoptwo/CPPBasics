@@ -2,6 +2,7 @@
 
 Write a program in C++ able to
 • Load an array A[4]
+- inistialize an array and declare it
 • Load an array B[4]
 • Create an array C[4] as A+B (C[i]=A[i]+B[i]
 • Show C[4]
@@ -12,6 +13,7 @@ void showarray(int px[], int pn);
 void sumarray(int px[], int py[],int pz[],int pn);
 
 */
+
 
 #include <iostream>
 

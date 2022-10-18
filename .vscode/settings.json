@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.cpp": "code-text-binary",
+        "iostream": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Enabled"
+}

@@ -15,3 +15,35 @@ int pn);void findAuthor(Book px[], int pn, string pauthor);
 void findYear(Book px[], int pn, int pyear);
 
 */
+
+
+class Book
+{
+
+private:
+    char bookname[40];
+    char bookAuthro[40];
+    int bookyear;
+    char bookpublisher[40];
+
+public: 
+    void loadBook(Book px[], int pn){
+        
+
+    }
+
+    void showBooks(Book px[], int pn) {
+
+
+    }
+
+
+};
+
+int main(){
+    
+    cout << "Welcome to the Library of Vera!"; 
+
+
+    return 0; 
+}

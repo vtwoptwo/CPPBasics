@@ -11,7 +11,7 @@ void loadarray(int px[], int pn);
 void showarray(int px[], int pn);
 void sumarray(int px[], int py[],int pz[],int pn);
 
-/
+*/
 
 #include <iostream>
 

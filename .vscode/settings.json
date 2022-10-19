@@ -1,7 +1,10 @@
 {
     "files.associations": {
         "*.cpp": "code-text-binary",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "random": "cpp",
+        "ostream": "cpp",
+        "iosfwd": "cpp"
     },
     "C_Cpp.errorSquiggles": "Enabled"
 }

@@ -1,0 +1,249 @@
+···························FRIEND FUNCTION·····································
+
+#include <iostream>
+
+using namespace std;
+class Car; 
+
+class Car {
+public:
+    Car(string m = "Model", string b= "Brand", string p="Plate", string f="Fuel", int k=0) { Model = m; Brand = b; Plate = p; Fuel = f; KM = k; 
+        cout << "Car constructor" << endl;
+    }
+    Car(Car& c){Model =c.Model; Brand =c.Brand; Plate =c.Plate; Fuel =c.Fuel; KM =c.KM; 
+        cout << "Car copy constructor" << endl;
+    }
+
+    ~Car() {
+        cout << "Car destructor" << endl;
+    }
+
+    void printModel(); 
+    void printKM();
+    
+    //get functions
+    string getModel() {return Model;}
+    string getBrand() {return Brand;}
+    string getPlate() {return Plate;}
+    string getFuel() {return Fuel;}
+    int getKM() {return KM;}
+
+    
+private:
+    string Model;
+    string Brand;
+    string Plate;
+    string Fuel;
+    int KM; 
+    friend void updateKM(Car c, int i);
+
+};
+
+void updateKM(Car c, int i){
+  c.KM += i; 
+  cout<<c.KM;
+  }
+
+void print(Car &object){
+  cout<<object.getModel()<<endl;
+  cout<<object.getBrand()<<endl; 
+  cout<<object.getPlate()<<endl; 
+  cout<<object.getFuel()<<endl; 
+  cout<<object.getKM()<<endl; 
+}
+
+void Car::printModel(){
+  cout<<Model<<endl; 
+}
+
+void Car::printKM(){
+  cout<<KM<<endl; 
+}
+int main(){
+  Car car; 
+  cout<<"updated KM: "; 
+  updateKM(car, 60);
+  car.printModel();
+  car.printKM();
+  
+  return 0; 
+}
+
+
+
+···························BOOK LIBRARY·····································
+
+
+#include <iostream>
+
+using namespace std; 
+
+class book
+{
+
+public:
+    string bookName;
+    string bookAut;
+    int bookYear;
+    string bookPub;
+};
+
+void loadBook(book px[], int pn)
+{
+
+    for(int i=0; i<pn; i++)
+    {
+        cout<<"Enter the title of the book:   ";
+        cin>>px[i].bookName;
+        cout<<"Enter the author of the book:   ";
+        cin>>px[i].bookAut;
+        cout<<"Enter the year the book was published:   ";
+        cin>>px[i].bookYear;
+        cout<<"Enter the publisher of the book:   ";
+        cin>>px[i].bookPub;
+
+    }
+
+}
+
+    void showBook(book px[], int pn) {
+
+        for(int i =0; i<pn;i++){
+            cout<<"-------------------------"<<endl; 
+            cout<<px[i].bookName<<endl; 
+            cout<<px[i].bookAut<<endl; 
+            cout<<px[i].bookYear<<endl; 
+            cout<<px[i].bookPub<<endl; 
+            cout<<"-------------------------"<<endl; 
+        }
+
+
+    }
+    void findAuthor(book px[], int pn, string pauthor)
+    {
+        for(int i = 0; i < pn; i++)
+        {
+            if(pauthor == px[i].bookAut)
+            {
+
+                cout << px[i].bookName << endl;
+            };
+        };
+    }
+
+
+    void findYear(book px[], int pn, int pyear)
+    {
+          for(int i = 0; i < pn; i++)
+          {
+            if(pyear == px[i].bookYear)
+            {
+                cout << "Book titles by this author: "<< endl << px[i].bookName << endl;
+            };
+
+
+        };
+    }
+
+
+
+
+int main(){
+    int *p; 
+    int pn = 1; 
+    book books[pn]; // initialize an object of books which works as an array
+    int c;
+    string author; 
+    int year;
+    
+    // initialize a do-while loop to simulate a menu
+    do{
+        cout << "\n1. Upload a book! \n2. Search for a book by author\n3. Search for a book by year\n4. Show all books." << endl;
+        cout << "Enter 0 to exit the library." << endl; 
+        cin>>c;
+        switch (c) {
+            case 1: 
+            loadBook(books,pn);
+            break;
+
+            case 2: 
+            showBook(books,pn);
+            break;
+
+            case 3: 
+            cout<<"Which author would you like to look up? ";
+            cin>>author; 
+            findAuthor(books,pn,author);
+            break;
+
+            case 4: 
+            cin>>year;
+            findYear(books,pn, year);
+            break;
+        
+            default:
+            cout<<"Invalid choice";
+            break;
+        };
+        
+    } while(c != 0);
+   
+    cout<<"Exiting...";
+    return 0; 
+    }
+
+···························RATIONAL FUNCTION·····································
+
+
+
+#include <iostream>
+using namespace std;
+
+class Rational{
+public:
+Rational() {num=1; den=1;};
+Rational(int n) {num=n ; den=1; };
+Rational(int n, int d) {num=n ; den=d; };
+void print();
+float conversion();
+
+Rational change2z() {Rational z(10, 100); return z; }
+
+
+private:
+float num, den;
+};
+
+void Rational::print(){
+  cout<<num<<" / "<<den<<endl;
+}
+
+float Rational::conversion(){
+  float x = num/den; 
+  cout<< x; 
+  return x;
+}
+
+int main() {
+Rational x;
+Rational y=Rational(4.5);
+Rational Z(22, 7);
+  
+cout<<"x = ";
+x.conversion();
+cout<<endl;
+  
+cout<<"y = ";
+y.conversion();
+cout<<endl;
+
+
+  
+cout<<"z = ";
+Z=Z.change2z();
+Z.conversion();
+
+
+  
+return 0;
+}

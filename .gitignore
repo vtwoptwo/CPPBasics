@@ -1,5 +1,6 @@
 *.vscode
 .dSYM
-vscode/*
+.vscode/*
 tempcodeRunnerFile.*
 *.exe
+.DS_Store 

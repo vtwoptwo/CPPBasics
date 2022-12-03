@@ -20,12 +20,12 @@
 <h3 align="center">Tic Tac Toe</h3>
 
   <p align="center">
-    A small console CPP game using 1 class. 
+    A small console CPP game using 1 class. This is project is part of a larger project which is creating a central repo of information of the basics of CPP.
     <br />
-    <a href="https://github.com/vtwoptwo/CPPBasics"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/vtwoptwo/CPPBasics"><strong>Explore the docs of CPP Basics»</strong></a>
     <br />
     <br />
-    <a href="https://github.com/vtwoptwo/CPPBasics">View Demo</a>
+    <a href=#usage>View Demo</a>
     ·
     <a href="https://github.com/vtwoptwo/CPPBasics/issues">Report Bug</a>
     ·
@@ -76,7 +76,7 @@
 
 ### Built With
 
-* [![C++][Cplusplus.com][CPP-url]
+* [![CPLUSPLUS][Cplusplus.com][CPP-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,7 +104,7 @@ Play the game in a CLI!
 
 <div align="center">
   <a href="https://github.com/vtwoptwo/CPPBasics">
-    <img src="images\TicTacToe_CLI_Demo.JPG" width="80" height="80">
+    <img src="[images\TicTacToe_CLI_Demo.JPG](https://github.com/vtwoptwo/CPPBasics/blob/main/images/TicTacToe_CLI_Demo.JPG)" width="80" height="80">
   </a>
 
 
@@ -174,6 +174,7 @@ Project Link: [https://github.com/vtwoptwo/CPPBasics](https://github.com/vtwoptw
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/vtwoptwo/CPPBasics.svg?style=for-the-badge
 [contributors-url]: https://github.com/vtwoptwo/CPPBasics/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/vtwoptwo/CPPBasics.svg?style=for-the-badge

@@ -73,8 +73,9 @@ Pending...
 
 
 ### Built With
+* [![C++][C++]][CPP-url]
 
-*[![C++][C++][CPP-url]]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,7 +96,27 @@ If you are working in VSCode, ensure that within your C/C++ Configurations you h
 ### Installation
 Since this project is pretty simple, you can just run the main.cpp file. 
 
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/vtwoptwo/CPPBasics.git
+   ```
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+
+
+
 <!-- USAGE EXAMPLES -->
+
+
+
+
+
 ## Usage
 
 Play the game in a CLI!

@@ -104,20 +104,21 @@ Play the game in a CLI!
 
 <div align="center">
   <a href="https://github.com/vtwoptwo/CPPBasics">
-    <img src="[images\TicTacToe_CLI_Demo.JPG](https://github.com/vtwoptwo/CPPBasics/blob/main/images/TicTacToe_CLI_Demo.JPG)" width="80" height="80">
+    <img src="https://github.com/vtwoptwo/CPPBasics/blob/main/images/TicTacToe_CLI_Demo.JPG" width="80" height="80">
   </a>
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
-
+<p align="left">
 - [ ] Using Friend Classes & Functions
 - [ ] OOP
+ 
 
 
 See the [open issues](https://github.com/vtwoptwo/CPPBasics/issues) for a full list of proposed features (and known issues).
-
+</p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 

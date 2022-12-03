@@ -18,9 +18,7 @@
   </a>
 
 <h3 align="center">C++</h3>
-<h2 align="center">Excercises/h2>
-<h2 align="center">Notes/h2>
-<h2 align="center">Projects/h2>
+
 
   <p align="center">
     A Repo to collect notes, exercises and best practices around programming in CPP. 

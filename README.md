@@ -133,8 +133,8 @@ Play the game in a CLI!
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Using Friend Classes & Functions
-- [ ] OOP
+- [ ] Notes
+- [ ] Exercises 
  
 
 

@@ -135,6 +135,9 @@ Play the game in a CLI!
 
 - [ ] Notes
 - [ ] Exercises 
+- [ ] Small Scale Projects
+
+ 
  
 
 

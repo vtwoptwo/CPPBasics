@@ -17,7 +17,10 @@
     <img src="/images/Cpp_logo.png.jpeg" alt="Logo" width="200" height="200">
   </a>
 
-<h3 align="center">Tic Tac Toe</h3>
+<h3 align="center">C++</h3>
+<h2 align="center">Excercises/h2>
+<h2 align="center">Notes/h2>
+<h2 align="center">Projects/h2>
 
   <p align="center">
     A Repo to collect notes, exercises and best practices around programming in CPP. 

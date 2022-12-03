@@ -103,8 +103,8 @@ Since this project is pretty simple, you can just run the main.cpp file.
 Play the game in a CLI!
 
 <div align="center">
-  <a href="https://github.com/vtwoptwo/CPPBasics">
-    <img src="https://github.com/vtwoptwo/CPPBasics/blob/main/images/TicTacToe_CLI_Demo.JPG" width="80" height="80">
+  <a href="https://github.com/vtwoptwo/CPPBasics/blob/main/images/TicTacToe_CLI_Demo.JPG">
+    <img src="https://github.com/vtwoptwo/CPPBasics/blob/main/images/TicTacToe_CLI_Demo.JPG" width="200" height="300">
   </a>
 
 

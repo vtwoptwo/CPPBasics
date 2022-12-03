@@ -125,7 +125,7 @@ Play the game in a CLI!
 
 <div align="center">
   <a href="https://github.com/vtwoptwo/CPPBasics/blob/main/images/TicTacToe_CLI_Demo.JPG">
-    <img src="https://github.com/vtwoptwo/CPPBasics/blob/main/images/TicTacToe_CLI_Demo.JPG">
+    <img src="https://github.com/vtwoptwo/CPPBasics/blob/main/images/Cpp_logo.png">
   </a>
 
 

@@ -74,7 +74,7 @@ Pending...
 
 ### Built With
 
-* [![C++][Cplusplus.com][CPP-url]
+*[![C++][C++][CPP-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

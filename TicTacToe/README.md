@@ -74,7 +74,7 @@ Pending...
 
 ### Built With
 
-*[![C++][C++][CPP-url]
+*[![C++][C++][CPP-url]]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

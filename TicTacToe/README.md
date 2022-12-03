@@ -203,4 +203,4 @@ Project Link: [https://github.com/vtwoptwo/CPPBasics](https://github.com/vtwoptw
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
 [CPP-url]: https://cplusplus.com/
- [C++]: https://img.shields.io/badge/C++-blue
+[C++]: https://img.shields.io/badge/C++-blue

@@ -109,14 +109,14 @@ Play the game in a CLI!
 
 <!-- ROADMAP -->
 ## Roadmap
-<p align="left">
+
 - [ ] Using Friend Classes & Functions
 - [ ] OOP
  
 
 
 See the [open issues](https://github.com/vtwoptwo/CPPBasics/issues) for a full list of proposed features (and known issues).
-</p>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -186,8 +186,6 @@ Project Link: [https://github.com/vtwoptwo/CPPBasics](https://github.com/vtwoptw
 [license-url]: https://github.com/vtwoptwo/CPPBasics/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/vera-prohaska-31734b1b5/
-
-[product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
@@ -205,3 +203,4 @@ Project Link: [https://github.com/vtwoptwo/CPPBasics](https://github.com/vtwoptw
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
 [CPP-url]: https://cplusplus.com/
+ [C++]: https://img.shields.io/badge/C++-blue

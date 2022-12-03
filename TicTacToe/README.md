@@ -14,7 +14,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/vtwoptwo/CPPBasics">
-    <img src="images/TicTacToe.jpeg" alt="Logo" width="80" height="80">
+    <img src="https://github.com/vtwoptwo/CPPBasics/blob/main/images/TicTacToe.jpeg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Tic Tac Toe</h3>

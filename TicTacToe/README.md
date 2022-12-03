@@ -14,13 +14,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/vtwoptwo/CPPBasics">
-    <img src="images/TicTacToe.jpeg" alt="Logo" width="80" height="80">
+    <img src="./images/TicTacToe.jpeg" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Tic Tac Toe</h3>
 
   <p align="center">
-    project_description
+    A small console CPP game using 1 class. 
     <br />
     <a href="https://github.com/vtwoptwo/CPPBasics"><strong>Explore the docs »</strong></a>
     <br />

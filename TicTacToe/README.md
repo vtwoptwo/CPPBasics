@@ -66,9 +66,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-
+Pending...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,7 +74,7 @@
 
 ### Built With
 
-* [![CPLUSPLUS][Cplusplus.com][CPP-url]
+* [![C++][Cplusplus.com][CPP-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,7 +102,7 @@ Play the game in a CLI!
 
 <div align="center">
   <a href="https://github.com/vtwoptwo/CPPBasics/blob/main/images/TicTacToe_CLI_Demo.JPG">
-    <img src="https://github.com/vtwoptwo/CPPBasics/blob/main/images/TicTacToe_CLI_Demo.JPG" width="200" height="300">
+    <img src="https://github.com/vtwoptwo/CPPBasics/blob/main/images/TicTacToe_CLI_Demo.JPG">
   </a>
 
 

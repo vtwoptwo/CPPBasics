@@ -121,7 +121,6 @@ Since this project is pretty simple, you can just run the main.cpp file.
 
 ## Usage
 
-Play the game in a CLI!
 
 <div align="center">
   <a href="https://github.com/vtwoptwo/CPPBasics/blob/main/images/TicTacToe_CLI_Demo.JPG">
